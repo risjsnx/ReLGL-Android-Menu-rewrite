@@ -3,6 +3,9 @@
 
 ![Preview of Among Us Mod Menu](AmongUsModMenu.jpg)
 
+> ⚠️ **This project is discontinued.**
+> It was created as a learning exercise in modding, not to encourage cheating or harm multiplayer games. I’ve chosen to step away from it out of respect for fair play and the gaming community.
+
 Floating mod menu for Among Us Mod Menu, requires Android Studio Doesn't compile with AIDE! for Mobile Users Please use GitHub Actions!
 
 This project is continuing the legacy of LGL Mod Menu!
