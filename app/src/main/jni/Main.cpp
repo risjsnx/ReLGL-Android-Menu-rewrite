@@ -232,7 +232,7 @@ void *hack_thread(void *) {
     // Hook example. Comment out if you don't use hook
     // Strings in macros are automatically obfuscated. No need to obfuscate!
 
-    //DobbyHook((void *)(address + 0x1288ABC), (void *)example, (void **)&old_example);
+    //DobbyHook((void *)(address + 0x000000), (void *)example, (void **)&old_example);
 
     il2cppBase = g_il2cppElf.base();
 
