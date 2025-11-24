@@ -81,6 +81,4 @@ void Init(JNIEnv *env, jobject, jobject ctx, jobject title, jobject subtitle, jo
     setText(env, t3, ("Account<br>Mods"));
 
     setText(env, t4, ("ReLGL<br>Project"));
-
-    initValid = true;
 }
