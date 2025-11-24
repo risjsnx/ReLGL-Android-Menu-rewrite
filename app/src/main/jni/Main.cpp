@@ -666,7 +666,6 @@ void lib_main() {
 int RegisterMenu(JNIEnv *env) {
     JNINativeMethod methods[] = {
             {OBFUSCATE("Icon"), OBFUSCATE("()Ljava/lang/String;"), reinterpret_cast<void *>(Icon)},
-            {OBFUSCATE("Font"), OBFUSCATE("()Ljava/lang/String;"), reinterpret_cast<void *>(Font)},
             {OBFUSCATE("Background"), OBFUSCATE("()Ljava/lang/String;"), reinterpret_cast<void *>(Background)},
             {OBFUSCATE("IconWebViewData"),  OBFUSCATE("()Ljava/lang/String;"), reinterpret_cast<void *>(IconWebViewData)},
             {OBFUSCATE("IsGameLibLoaded"),  OBFUSCATE("()Z"), reinterpret_cast<void *>(isGameLibLoaded)},
