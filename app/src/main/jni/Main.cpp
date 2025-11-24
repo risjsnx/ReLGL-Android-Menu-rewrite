@@ -9,7 +9,7 @@
 #include <fstream>
 #include <iostream>
 #include <dlfcn.h>
-#include "Includes/Logger.hpp"
+#include "Includes/Logger.h"
 #include "Includes/Utils.cpp"
 #include "Includes/MonoInterop.hpp"
 #include "KittyMemory/MemoryBackup.hpp"

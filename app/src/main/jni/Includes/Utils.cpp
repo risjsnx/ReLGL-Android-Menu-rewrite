@@ -4,7 +4,7 @@
 #include <cstring>
 #include <string>
 #include <cstdlib>
-#include "Logger.hpp"
+#include "Logger.h"
 
 bool libLoaded = false;
 
