@@ -5,9 +5,7 @@ Continuing the Legacy of LGLTeam, requires Android Studio Doesn't compile with A
 
 This project is continuing the legacy of LGL Mod Menu!
 
-Offsets are outdated! I would update them If I had any free time!
-
-Bugs might be included so yeah, I would fix them. If i find any!
+Is in WIP! Please be patient! Open Issues if any bugs are found.
 
 # Credits
 Thanks to the following individuals without them The project might have been impossible!
