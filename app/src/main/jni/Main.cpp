@@ -272,14 +272,6 @@ void *hack_thread(void *) {
 
     LOGI("Done");
 
-    //Anti-leech
-    /*if (!iconValid || !initValid || !settingsValid) {
-        //Bad function to make it crash
-        sleep(5);
-        int *p = 0;
-        *p = 0;
-    }*/
-
     return nullptr;
 }
 
