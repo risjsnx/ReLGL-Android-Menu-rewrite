@@ -724,7 +724,7 @@ public class Menu {
             GD_THUMB.setColor(Color.MAGENTA);
         } else {
             GD_TRACK.setStroke(2, Color.MAGENTA);
-            GD_TRACK.setColor(Color.argb(255, 255, 255, 255));
+            GD_TRACK.setColor(Color.argb(200, 255, 255, 255));
 
             GD_THUMB.setStroke(2, Color.MAGENTA);
             GD_THUMB.setColor(Color.WHITE);
