@@ -548,11 +548,6 @@ void Changes(JNIEnv *env, jclass clazz, jobject obj,
                                         jint featNum, jstring featName, jint value,
                                         jboolean boolean, jstring str) {
 
-/*
-    LOGD(("Feature name: %d - %s | Value: = %d | Bool: = %d | Text: = %s"), featNum,
-         env->GetStringUTFChars(featName, 0), value,
-         boolean, str != nullptr ? env->GetStringUTFChars(str, 0) : "");*/
-
     //BE CAREFUL NOT TO ACCIDENTALLY REMOVE break;
 
     switch (featNum) {
@@ -621,13 +616,13 @@ void Changes(JNIEnv *env, jclass clazz, jobject obj,
         case 2:
             switch (value) {
                 case 0:
-                    LOGD(("Selected item 1"));
+                    LOGD("Selected item 1");
                     break;
                 case 1:
-                    LOGD(("Selected item 2"));
+                    LOGD("Selected item 2");
                     break;
                 case 2:
-                    LOGD(("Selected item 3"));
+                    LOGD("Selected item 3");
                     break;
             }
             break;
