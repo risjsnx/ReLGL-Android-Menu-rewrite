@@ -71,7 +71,6 @@ public class Menu {
     int TEXT_COLOR = Color.parseColor("#FFFFFF");
     int BTN_COLOR = Color.parseColor("#FFC0CB");
     int MENU_BG_COLOR = Color.parseColor("#FFC0CB"); //#AARRGGBB
-    int MENU_FEATURE_BG_COLOR = Color.parseColor("#141C22"); //#AARRGGBB
     int MENU_WIDTH = 350;
     int MENU_HEIGHT = 260;
     int POS_X = 0;
@@ -384,7 +383,6 @@ public class Menu {
         scrollView = new ScrollView(context);
         scrlLL = new LinearLayout.LayoutParams(MATCH_PARENT, dp(MENU_HEIGHT));
         scrollView.setLayoutParams(scrlLL);
-        scrollView.setBackgroundColor(MENU_FEATURE_BG_COLOR);
         mods = new LinearLayout(context);
         mods.setOrientation(LinearLayout.VERTICAL);
 
