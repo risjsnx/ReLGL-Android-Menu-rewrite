@@ -480,7 +480,7 @@ jobjectArray GetFeatureList4(JNIEnv *env, jobject context) {
     jobjectArray ret;
 
     const char *features[] = {
-            ("Category_ReLGL"), //Not counted
+            ("Category_ReLGL Project"), //Not counted
             ("ButtonLink_ReLGL Project_https://github.com/Parsa307/ReLGL-Android-Menu"), //Not counted
 
     /*
