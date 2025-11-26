@@ -68,9 +68,9 @@ public class Menu {
     //region Variable
     //public static final String TAG = "Mod_Menu"; //Tag for logcat
 
-    TEXT_COLOR = Color.WHITE;
-    BTN_COLOR = Color.YELLOW;
-    MENU_BG_COLOR = Color.YELLOW; //#AARRGGBB
+    int TEXT_COLOR = Color.WHITE;
+    int BTN_COLOR = Color.YELLOW;
+    int MENU_BG_COLOR = Color.YELLOW;
     int MENU_WIDTH = 350;
     int MENU_HEIGHT = 260;
     int POS_X = 0;
@@ -79,16 +79,16 @@ public class Menu {
     float MENU_CORNER = 4f;
     int ICON_SIZE = 45; //Change both width and height of image
     float ICON_ALPHA = 1f; //Transparent
-    CategoryBG = Color.YELLOW;
-    SeekBarColor = Color.YELLOW;
-    SeekBarProgressColor = Color.YELLOW;
-    CheckBoxColor = Color.YELLOW;
-    RadioColor = Color.YELLOW
+    int CategoryBG = Color.YELLOW;
+    int SeekBarColor = Color.YELLOW;
+    int SeekBarProgressColor = Color.YELLOW;
+    int CheckBoxColor = Color.YELLOW;
+    int RadioColor = Color.YELLOW;
     String NumberTxtColor = "#FFFFFF";
 
-    LST_MAB = Color.YELLOW;
-    TAB_STROKE_COLOR = Color.WHITE;
-    TAB_TEXT_COLOR = Color.WHITE;
+    int LST_MAB = Color.YELLOW;
+    int TAB_STROKE_COLOR = Color.WHITE;
+    int TAB_TEXT_COLOR = Color.WHITE;
     float TAB_TEXT_SIZE = 12.5f;
     HorizontalScrollView Scroll;
     ScrollView H;
