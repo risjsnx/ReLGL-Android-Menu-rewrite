@@ -305,7 +305,6 @@ public class Menu {
         t1.setTextColor(TAB_TEXT_COLOR);
         t1.setTextSize(TAB_TEXT_SIZE);
         t1.setPadding(45, 15, 45, 15);
-        t1.setShadowLayer(7.0f, 0.0f, 0.0f, Color.BLACK);
         AddColor(t1, LST_MAB, 3, TAB_STROKE_COLOR);
         t1.setTypeface(null, Typeface.BOLD);
         t1.setOnClickListener(p1 -> {
@@ -325,7 +324,6 @@ public class Menu {
         t2.setTextColor(TAB_TEXT_COLOR);
         t2.setTextSize(TAB_TEXT_SIZE);
         t2.setPadding(45, 15, 45, 15);
-        t2.setShadowLayer(7.0f, 0.0f, 0.0f, Color.BLACK);
         AddColor(t2, Color.TRANSPARENT, 0, TAB_STROKE_COLOR);
         t2.setTypeface(null, Typeface.BOLD);
         t2.setOnClickListener(p1 -> {
@@ -345,7 +343,6 @@ public class Menu {
         t3.setTextColor(TAB_TEXT_COLOR);
         t3.setTextSize(TAB_TEXT_SIZE);
         t3.setPadding(45, 15, 45, 15);
-        t3.setShadowLayer(7.0f, 0.0f, 0.0f, Color.BLACK);
         AddColor(t3, Color.TRANSPARENT, 0, TAB_STROKE_COLOR);
         t3.setTypeface(null, Typeface.BOLD);
         t3.setOnClickListener(p1 -> {
@@ -365,7 +362,6 @@ public class Menu {
         t4.setTextColor(TAB_TEXT_COLOR);
         t4.setTextSize(TAB_TEXT_SIZE);
         t4.setPadding(45, 15, 45, 15);
-        t4.setShadowLayer(7.0f, 0.0f, 0.0f, Color.BLACK);
         AddColor(t4, Color.TRANSPARENT, 0, TAB_STROKE_COLOR);
         t4.setTypeface(null, Typeface.BOLD);
         t4.setOnClickListener(p1 -> {
@@ -731,7 +727,6 @@ public class Menu {
         }
         switchR.setText(featName);
         switchR.setTextColor(TEXT_COLOR);
-        switchR.setShadowLayer(7.0f, 0.0f, 0.0f, Color.BLACK);
         switchR.setPadding(10, 5, 10, 5);
         switchR.setThumbDrawable(GD_THUMB);
         switchR.setTrackDrawable(GD_TRACK);
