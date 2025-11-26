@@ -68,7 +68,7 @@ public class Menu {
     //region Variable
     //public static final String TAG = "Mod_Menu"; //Tag for logcat
 
-    int TEXT_COLOR = Color.parseColor("#FFA500")
+    int TEXT_COLOR = Color.parseColor("#FFA500");
     int BTN_COLOR = Color.parseColor("#FFA500");
     int MENU_BG_COLOR = Color.parseColor("#FFA500");
     int MENU_WIDTH = 250;
